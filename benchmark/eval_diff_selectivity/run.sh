@@ -1,0 +1,5 @@
+OMP_NUM_THREADS=20 OMP_PROC_BIND=true ./pathseer
+OMP_NUM_THREADS=20 OMP_PROC_BIND=true ./filtered-hnsw
+OMP_NUM_THREADS=20 OMP_PROC_BIND=true ./acorn
+OMP_NUM_THREADS=20 OMP_PROC_BIND=true ./filtered-ivf
+OMP_NUM_THREADS=20 OMP_PROC_BIND=true ./navix

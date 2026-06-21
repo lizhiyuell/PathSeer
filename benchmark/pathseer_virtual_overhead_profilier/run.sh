@@ -1,0 +1,1 @@
+OMP_NUM_THREADS=20 OMP_PROC_BIND=true ./pathseer

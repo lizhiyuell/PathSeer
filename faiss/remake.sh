@@ -1,0 +1,3 @@
+rm -rf build
+cmake -DFAISS_ENABLE_GPU=OFF -DFAISS_ENABLE_PYTHON=OFF -DBUILD_TESTING=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="-march=native" -B build
+make -C build -j faiss

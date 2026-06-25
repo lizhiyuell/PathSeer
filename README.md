@@ -1,6 +1,6 @@
 # PathSeer
 
-PathSeer is a vector retrieval system with attribute filtering. The implementation is built on top of FAISS and includes benchmark programs for evaluating PathSeer and related filtered ANN baselines.
+PathSeer is a vector retrieval system with attribute filtering. The implementation is built on top of [**FAISS**](https://github.com/facebookresearch/faiss) and includes benchmark programs for evaluating PathSeer and related filtered ANN baselines. Read more in our SIGMOD '26 paper [**PathSeer: Adaptive Neighbor Handling for Efficient Filtered ANN Search**](https://dl.acm.org/doi/abs/10.1145/3802098).
 
 # Directory Structure
 
